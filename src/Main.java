@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args){
 
+        /* Both objects are the allocated in the same memory address. */
         Logger myLogger = Logger.getInstance();
         Logger myLoggerTwo = Logger.getInstance();
 
